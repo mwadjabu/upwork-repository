@@ -1,0 +1,389 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030; /* Ensure it's above other content */
+}
+
+/* Add a top margin to the body to avoid content being hidden behind the fixed navbar */
+body {
+    margin-top: 100px; /* Adjust this value based on the height of your navbar */
+}
+
+/* Additional styling to ensure proper appearance */
+.navbar {
+    width: 100%;
+    background-color: white; /* Ensure it has a background */
+  
+}
+.navbar1 {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 1030; /* Ensure it's above other content */
+}
+/* Additional styling to ensure proper appearance */
+.navbar1 {
+    width: 100%;
+    background-color: white; /* Ensure it has a background */
+   
+}
+.nav-item ul li a {
+    color: black;
+}
+.navbar-nav a{
+    position: relative;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+
+.search-input {
+    width: 300px;
+    /* Adjust width as needed */
+    border-radius: 17px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 5px;
+}
+
+.search-container {
+    position: relative;
+    top: -10px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    /* Adjust icon color */
+}
+
+.search-input {
+    padding-left: 30px;
+    /* Add padding to prevent text overlap with icon */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .dropdown-item:hover {
+    color: green;
+    /* Change this to any shade of green you want */
+
+}
+
+.nav-item .nav-link {
+    color: red;
+    /* Normal text color */
+    text-decoration: none;
+    /* Remove underline */
+    transition: color 0.3s ease;
+    /* Smooth transition for color change */
+}
+
+.combine {
+    display: flex;
+    gap: 240px;
+    position: relative;
+
+}
+
+.image img {
+    position: relative;
+    top: 10px;
+    width: 500px;
+}
+
+.trust {
+    display: flex;
+    position: relative;
+    margin-left: 60px;
+    gap: 20px;
+    top: 50px;
+}
+
+figure {
+    width: 100px;
+}
+.mydiv{
+  gap: 40px;
+  position: relative;
+  top: 100px;
+}
+.first{
+    width: 30%;
+    background-color:rgb(242, 247, 242);
+    margin-left: 60px ;
+   
+    border-radius: 10px;
+}
+.second{
+    width: 50%;
+    background-color:white;
+   
+}
+h2[data-v-46c2630a]{
+    font-size: 40px;
+}
+.innova-hero-bubble{
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.12);
+    filter: blur(0);
+    margin: 40px 0;
+    opacity: 1;
+    padding: 24px;
+    position: relative;
+    transform: scale(1);
+    transform-origin: bottom center;
+    max-width: 560px;
+    margin-left: 320px;
+    top: 50px;
+}
+.innova{
+    background: black;
+    border-radius: 10rem;
+    display: flex;
+    filter: blur(0);
+    height: 50px;
+    margin: 20px auto 40px;
+    max-width: 460px;
+    opacity: 1;
+    transform: scale(1);
+    transform-origin: bottom center;
+    position: relative;
+    top: 50px;
+}
+.innova a{
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    background-color:white;
+    margin-top: 10px;
+    border-radius: 24px;
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.45);
+}
+.category-pills[data-v-4f69312c] {
+    margin-bottom: 100px;
+}
+.browse-talent-categories[data-v-47bcfee5] {
+    line-height: 103%;
+    margin-top: 1px;
+}
+.mb-3, .mb-3x {
+    margin-bottom: 12px !important;
+    margin-bottom: var(--ws-3x) !important;
+}
+.innova-layout .layout .mb-8x {
+    margin-bottom: var(--ws-8x) !important;
+}
+.browse-jobs-label[data-v-6ef9ddd4] {
+    color: #535151;
+}
+.up-in-link {
+    
+    color: green;
+    font-weight: bold;
+    -webkit-text-decoration: var(--underline-link);
+    text-decoration: var(--underline-link);
+    transition: color .1s ease-in-out;
+}
+.container{
+    position: relative;
+    margin-left: 38px;
+}
+.container a{
+    text-decoration: none;
+}
+.custom-card {
+    background-color: #e9e9e9;
+    border: none;
+}
+
+.custom-card:hover {
+transform: scale(1.05);
+
+}
+.card-title,.card-text{
+color: black;
+}
+.category-pill-details span[data-v-f32ee96e]:not(:last-child) {
+margin-left: 20px;
+line-height: 6px;
+}
+.category-skill-count{
+position: relative;
+margin-left: 25px;
+}
+.category-rating-icon{
+position: relative;
+top: 20px;
+}
+.browse-jobs-label[data-v-6ef9ddd4] {
+    color: grey;
+    font-size: 20px;
+}
+.up-n-link[data-v-6ef9ddd4] {
+    color:green;
+}
+.for-enterprise-banner-container[data-v-6dc32ef1] {
+    display: flex;
+    overflow: hidden;
+}
+.bg-forest, .bg-highlight-2 {
+    background-color: #13544e !important;
+   
+}
+.air3-grid-container {
+    --template-col: repeat(12, 1fr);
+    --row-gap: var(--ws-4x);
+    --col-gap: var(--ws-4x);
+    --gap: var(--row-gap) var(--col-gap);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: var(--template-col);
+    grid-gap: var(--gap);
+    gap: var(--gap);
+}
+.c-mint[data-v-6dc32ef1] {
+    color: #91e6b3;
+    stroke: var(--color-highlight-11) !important;
+}
+
+.text-inverse[data-v-6dc32ef1] {
+    color: white;
+}
+.enterprise-headline[data-v-6dc32ef1] {
+    font-size: 22px;
+    line-height: 130%;
+    margin-bottom: 14px;
+}
+.enterprise-subtitle[data-v-6dc32ef1] {
+    font-size: 18px;
+    font-weight: var(--font-weight-body);
+    letter-spacing: .6px;
+    line-height: 130%;
+}
+.enterprise-image{
+    height:100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+   width: 800px;
+}
+.ent-more-details[data-v-6dc32ef1] {
+    font-size: 18px;
+    line-height: 110%;
+    margin-bottom: 20px;
+}
+.homepage-innova-layout .layout .justify-space-between {
+    justify-content: space-between !important;
+}
+.air3-btn-secondary:not([disabled]):not(.is-disabled) {
+    --btn-border-color: var(--btn-border-color-secondary);
+}
+.air3-btn-secondary:not([disabled]):not(.is-disabled) {
+        --btn-border-color: var(--btn-border-color-secondary);
+}
+.c-forest[data-v-6dc32ef1] {
+    color: var(--color-highlight-2);
+}
+.enterprise-learn-more-btn[data-v-6dc32ef1] {
+    background: white;
+    border: transparent;
+    color: green;
+    margin: 25px 0 0;
+    border-radius: 10px;
+    padding: 5px;
+}
+.bg-delivery-model[data-v-46f63202] {
+    background-image: url(https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/c_scale/brontes/delivery-models/find-talent-2x.jpg);
+    border-radius: 8px;
+    padding: 30px;
+}
+.bg-delivery-model[data-v-46f63202] {
+    background-image: url(https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/c_scale/brontes/delivery-models/find-talent-mobile.jpg);
+    background-position: top;
+    background-size: cover;
+    letter-spacing: .6px;
+    padding: 15px;
+    opacity: 10px;
+}
+.bg-delivery-model .headline[data-v-46f63202] {
+    font-size: var(--font-size-h5);
+    font-weight: 400;
+    letter-spacing: -.002em;
+    line-height: var(--line-height-h5);
+    margin-bottom: 100px;
+}
+.bg-delivery-model h2.display-rebrand[data-v-46f63202] {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+.vs-color-white[data-v-46f63202] {
+    color: #fff;
+}
+h2:where(.display-rebrand) {
+    font-size: var(--font-size-h2-rebrand, var(--font-size-h2));
+    letter-spacing: var(--letter-spacing-h2-rebrand);
+}
+.bg-delivery-model .delivery-model-card[data-v-46f63202] {
+    margin-top: 10px;
+}
+.delivery-model-card[data-v-46f63202] {
+    font-weight: 400;
+}
+.bg-delivery-model .deliver-models-card-link[data-v-46f63202] {
+    align-items: flex-start;
+    border-radius: 8px;
+    display: flex !important;
+    flex-direction: column;
+    height: 100% !important;
+    margin: 0 !important;
+    max-height: none;
+    padding: 15px !important;
+    text-align: left;
+    white-space: inherit;
+}
+ .content{
+    width: 60%;
+    background-color: green;
+ }    
+ .image{
+    width: 70%;
+ }      
+ 
+ .par{
+    margin: 12px 90px;
+    width:600px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .par h1{
+    font-weight: bold;
+    font-size: 52px;
+ }
+ .par p{
+    margin: 40px 0px;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 5px 10px;
+ }
+ h3{
+
+    margin: 20px;
+    font-size: 30px;
+ }
+ button{
+    height: 50px;
+    width: 129px;
+    border-radius: 17px;
+    border: none;
+    text-transform: capitalize;
+ }

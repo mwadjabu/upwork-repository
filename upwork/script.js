@@ -1,0 +1,1 @@
+document.querySelector("#how-to-hire > div.air3-grid-container > div.span-12.span-md-6.span-lg-5.d-flex.align-items-center.steps-container > div > svg > g > g:nth-child(3)")
